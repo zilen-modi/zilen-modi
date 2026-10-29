@@ -9,13 +9,15 @@ build AI tooling that makes that kind of work faster and safer.
   branch transfers end to end (create, ship, receive, serials, labels, hazmat rules, BOM), kits,
   inventory and product lookups. Contract-first APIs with OpenAPI and Zod, adapters that keep the
   legacy and new data stores in step, and a shared component library with Storybook.
-- **ERP Atlas.** Code intelligence for the legacy system: 2.86M lines of Pick BASIC indexed, with
+- **ERP Atlas** *(private: it indexes a client's proprietary code; a walkthrough is available on
+  request)*. Code intelligence for the legacy system: 2.86M lines of Pick BASIC indexed, with
   answers that cite `PROGRAM:line` and are checked automatically, field tracing from screen to
   database, drift detection between source control and the live server, and an MCP server so AI
   agents can query it safely.
-- **Millwright.** A governed AI engineering pipeline: a Jira ticket in, a review-ready pull
-  request out, through nine stages with fail-closed quality gates. Its PR reviews have every
-  finding re-checked by a second agent before a person decides what gets posted.
+- **[Millwright](https://github.com/zilen-modi/millwright-showcase).** A governed AI engineering
+  pipeline: a Jira ticket in, a review-ready pull request out, through nine stages with
+  fail-closed quality gates. Its PR reviews have every finding re-checked by a second agent before
+  a person decides what gets posted.
 
 **Toolbox**
 
